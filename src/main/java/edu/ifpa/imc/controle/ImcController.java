@@ -26,7 +26,9 @@ public class ImcController {
       return "<h1> Alô, eu sou a Renata! </h1>"
       		+ "  <p> Esse e um codigo alterado para teste do CI</p>"
       		+ " <hr>  "
-      		+ "  TUDO FUNCIONANDO.....";
+      		+ "  TUDO FUNCIONANDO....."
+      		+ " <hr>  "
+      		+ "  ALTERAÇÃO REALIZADA.....";
     }
 	
 	@RequestMapping(value = "/imc", method = RequestMethod.GET)
